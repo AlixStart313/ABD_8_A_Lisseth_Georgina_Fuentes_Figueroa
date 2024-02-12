@@ -139,3 +139,52 @@ clear
 mysql -u admin -padmin123
 clear
 mysql -u admin -padmin123
+mysqldump -u root -p mydatabase customers orders > mydat
+mysqldump -u root -p restaurant customers orders > mydat
+mysqldump -u admin -p restaurant customers orders > mydat
+mysql -u admin -padmin123
+mysql -u admin -padmin123 restaurant < mydatabase_backup.sql
+ls
+cd myDat
+cd mydat
+mysql -u admin -padmin123 restaurant < mydat
+mysql -u admin -padmin123
+mysql -u admin -padmin123 restaurant < mydat
+mysql -u admin -padmin123
+mkdir P102.
+ls
+mv mydat P102
+ls
+mv P102 mydatabase_backup.sql
+ls
+mv mydatabase_backup.sql /P102
+sudo mv mydatabase_backup.sql /P102
+ls
+git init 
+git remote add origin https://github.com/AlixStart313/ABD_8_A_Lisseth_Georgina_Fuentes_Figueroa.git
+ls
+git pull origin master
+ls
+git add P102./
+git commit -m "Practica P102. Realizando Copias de"
+Seguridad Selectivas con
+git commit -m "Practica P102. Realizando Copias Seguridad Selectivas con mysqldump en MySQL"
+git config --global user.name AlixStart313
+git commit -m "Practica P102. Realizando Copias Seguridad Selectivas con mysqldump en MySQL"
+git config --global user.email "20213tn014@utez.edu.mx"
+git commit -m "Practica P102. Realizando Copias Seguridad Selectivas con mysqldump en MySQL"
+git add P102./
+git commit -m "Practica P102. Realizando Copias Seguridad Selectivas con mysqldump en MySQL"
+git status
+ls
+git add .
+git status
+git commit -m "Practica P102. Realizando Copias Seguridad Selectivas con mysqldump en MySQL y practica de la veterinaria "
+git push -u origin 
+git push -u origin PracticaP102
+git push -u origin master
+mysql -u admin -padmin123
+clear
+mysql -u admin -padmin123
+clear
+mysql -u admin -padmin123
